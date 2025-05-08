@@ -58,7 +58,7 @@ A full-stack food delivery platform built using **React** on the frontend and **
 - Redux (for state management)
 - GitHub Actions (CI/CD)
 - Vercel (for frontend hosting)
-
+```
 ---
 
 ## 🚀 Getting Started
@@ -79,6 +79,7 @@ A full-stack food delivery platform built using **React** on the frontend and **
 cd UI
 npm install
 npm run dev
+```
 
 ## ✅ TODO Items
 
@@ -155,7 +156,7 @@ food-delivery-platform/
 ├── docker-compose.yml
 ├── README.md
 └── .github/workflows/        # CI/CD configurations
-
+```
 
 🙌 Maintainers
 The CodeReveal – YouTube Channel
