@@ -7,7 +7,7 @@ A full-stack food delivery platform built using **React** on the frontend and **
 ## 🧰 Tech Stack
 
 ### 🖥️ Frontend
-- JavaScript (ES6+)
+- Typescript
 - React
 - React Query
 - Tailwind CSS
