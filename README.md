@@ -2,12 +2,15 @@
 
 A full-stack food delivery platform built using **React** on the frontend and **Spring Boot** on the backend. This application allows users to browse restaurants, view food items, place orders, and track their deliveries in real time.
 
+
+![food_delivery2](https://github.com/user-attachments/assets/a6b119b8-b53b-431b-8e69-7be931c72687)
+
 ---
 
 ## 🧰 Tech Stack
 
 ### 🖥️ Frontend
-- JavaScript (ES6+)
+- Typescript
 - React
 - React Query
 - Tailwind CSS
@@ -58,7 +61,7 @@ A full-stack food delivery platform built using **React** on the frontend and **
 - Redux (for state management)
 - GitHub Actions (CI/CD)
 - Vercel (for frontend hosting)
-
+```
 ---
 
 ## 🚀 Getting Started
@@ -79,6 +82,7 @@ A full-stack food delivery platform built using **React** on the frontend and **
 cd UI
 npm install
 npm run dev
+```
 
 ## ✅ TODO Items
 
@@ -91,7 +95,7 @@ npm run dev
 - [X] Shopping cart component (persist in localStorage)
 - [X] Checkout page and address form
 - [X] Order summary and payment simulation
-- [] Order Tracking page
+- [X] Order Tracking page
 - [ ] User authentication (JWT + OAuth2)
 - [ ] Profile page (past orders, addresses)
 - [ ] Admin dashboard UI
@@ -155,7 +159,7 @@ food-delivery-platform/
 ├── docker-compose.yml
 ├── README.md
 └── .github/workflows/        # CI/CD configurations
-
+```
 
 🙌 Maintainers
 The CodeReveal – YouTube Channel
