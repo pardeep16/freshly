@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "@reduxjs/toolkit": "^2.7.0",
     "@tailwindcss/vite": "^4.1.4",
     "leaflet": "^1.9.4",
@@ -17,6 +18,7 @@
     "react-dom": "^19.0.0",
     "react-leaflet": "^5.0.0",
     "react-redux": "^9.2.0",
+    "react-router-dom": "^6.30.0",
     "tailwindcss": "^4.1.4"
   },
   "devDependencies": {
