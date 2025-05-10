@@ -1,6 +1,5 @@
 import { BanknotesIcon, ChatBubbleLeftIcon, ClockIcon, Cog6ToothIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { HomeIcon } from '@heroicons/react/24/solid'
-import React from 'react'
 import { Link } from 'react-router-dom'
 interface SideBarProps {
   isSideBarOpen?:boolean;

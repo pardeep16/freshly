@@ -1,4 +1,3 @@
-import React from 'react';
 import BannerImg from '../../assets/img/banner_2.png';
 import Categories from '../../components/Categories/Categories';
 import PopularDish from '../../components/PopularDish/PopularDish';

@@ -1,4 +1,3 @@
-import React from "react";
 import { MenuCategory } from "./RestaurantMenu";
 import { HeartIcon, PlusIcon } from "@heroicons/react/24/outline";
 import Rating from "../../components/common/Rating";

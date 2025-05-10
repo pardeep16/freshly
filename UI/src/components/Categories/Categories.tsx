@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Bakery from '../../assets/img/baked.png';
 import Burger from '../../assets/img/burger.png';
 import SeaFood from '../../assets/img/fish.png';
@@ -23,7 +23,7 @@ const foodCategoryItems:FoodCategoryItem[]=[
 ]
 
 const Categories = () => {
-  const [categories,setCategories] = useState<FoodCategoryItem[]>(foodCategoryItems);
+  const [categories,] = useState<FoodCategoryItem[]>(foodCategoryItems);
   return (
     <div className='mb-8'>
         <SectionLink label='Category' onClick={()=> {}}/>

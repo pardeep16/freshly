@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { CuisineFilter, Restaurant } from "./type";
 import { cuisineData, restaurantData, sortOptions } from "./constants";
 import { AdjustmentsHorizontalIcon } from "@heroicons/react/24/outline";
 import RestaurantCard from "./RestaurantCard";
 
 const Restaurants = () => {
-  const [restaurants, setRestaurants] = useState<Restaurant[]>(restaurantData);
-  const [cuisineFilters, setCuisineFilters] =
+  const [restaurants, ] = useState<Restaurant[]>(restaurantData);
+  const [cuisineFilters, ] =
     useState<CuisineFilter[]>(cuisineData);
   const [activeCuisine,setActiveCuisine] = useState<CuisineFilter>(cuisineFilters[0]);
   const [activeSort,setActiveSort]= useState<string>('rating');

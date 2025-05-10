@@ -145,7 +145,7 @@ const Checkout = () => {
             <h3 className="font-medium text-gray-700 mb-2">{activeCart?.restaurantName}</h3>
 
             <div className="max-h-60 overflow-y-auto mb-4">
-                {activeCart?.items?.map(item=>(
+                {activeCart?.items?.map((item:any)=>(
                     <div key={item.id} className="py-2 border-b last:border-b-0 flex justify-between">
                     <div>
                       <span className="font-medium">{item.quantity}x </span>

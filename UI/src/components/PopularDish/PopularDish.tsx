@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import SectionLink from '../Links/SectionLink'
 import { FoodItem } from '../../types'
 import { HeartIcon, PlusIcon } from '@heroicons/react/24/outline'
@@ -12,9 +12,9 @@ const foodItems :FoodItem[] = [
 ]
 
 const PopularDish = () => {
-    const [popularItems,setPopularItems] = useState<FoodItem[]>(foodItems);
+    const [popularItems,] = useState<FoodItem[]>(foodItems);
     const handleDiskClick = (item:FoodItem)=>{
-
+        console.log(item.id);
     }
     const renderStars = (rating: number) => {
         const stars = [];

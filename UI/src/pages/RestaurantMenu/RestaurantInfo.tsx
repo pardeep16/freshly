@@ -1,4 +1,3 @@
-import React from 'react'
 import { Restaurant } from '../Restaurants/type'
 import { ClockIcon, MapPinIcon, PhoneIcon } from '@heroicons/react/24/outline'
 

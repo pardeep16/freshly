@@ -1,8 +1,6 @@
 import { MapPinIcon } from "@heroicons/react/24/outline";
-import React, { useState } from "react";
 
 const Address = () => {
-  const [selectedAddress, setSelectedAddress] = useState();
   return (
     <div className="mb-4">
       <h2 className="text-lg mb-2">Your Address</h2>

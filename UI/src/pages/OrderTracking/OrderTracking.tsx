@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { useNavigate, useParams } from "react-router-dom";
 import 'leaflet/dist/leaflet.css';
-import { ChatBubbleLeftIcon, CheckIcon, ClipboardDocumentCheckIcon, DevicePhoneMobileIcon, PhoneIcon, TicketIcon, TruckIcon } from "@heroicons/react/24/outline";
+import { ChatBubbleLeftIcon, CheckIcon, ClipboardDocumentCheckIcon, DevicePhoneMobileIcon, PhoneIcon, TruckIcon } from "@heroicons/react/24/outline";
 import Rating from "../../components/common/Rating";
 
 const deliveryPerson = {
@@ -224,7 +224,7 @@ const OrderTracking = () => {
             <h3 className="font-medium text-gray-700 mb-2">{order?.restaurantName}</h3>
 
             <div className="max-h-60 overflow-y-auto mb-4">
-                {order?.items?.map(item=>(
+                {order?.items?.map((item:any)=>(
                     <div key={item.id} className="py-2 border-b last:border-b-0 flex justify-between">
                     <div>
                       <span className="font-medium">{item.quantity}x </span>

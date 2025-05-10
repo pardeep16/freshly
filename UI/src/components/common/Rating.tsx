@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Rating = ({rating} :{rating:number}) => {
     return (
         <div className='flex flex-wrap'>

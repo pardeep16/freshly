@@ -1,4 +1,3 @@
-import React from "react";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import {
   addItem,
@@ -24,7 +23,7 @@ const Cart = () => {
     if (!activeCart) {
       return;
     }
-    const item = activeCart.items.find((item) => item.id === id);
+    const item = activeCart.items.find((item:any) => item.id === id);
     if (item) {
       dispatch(
         addItem({
@@ -55,7 +54,7 @@ const Cart = () => {
         <div className="mb-4">
           <h2 className="text-lg font-bold mb-2">Your Restaurant Carts</h2>
           <div className="flex flex-wrap gap-2">
-            {carts.map((cart, index) => (
+            {carts.map((cart:any, index:any) => (
               <button
                 key={cart.restaurantId}
                 onClick={() => dispatch(setActiveCart(index))}
@@ -90,7 +89,7 @@ const Cart = () => {
           <p className="text-gray-500">Your cart is empty</p>
         ) : (
           <div className="mb-4">
-            {activeCart?.items?.map((item) => (
+            {activeCart?.items?.map((item:any) => (
               <div key={item.id} className="flex items-center gap-4">
                 <div className="w-[88px] mb-4 h-[88px] bg-amber-100 rounded-md flex items-center justify-center">
                   <img

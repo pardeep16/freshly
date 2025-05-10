@@ -1,4 +1,3 @@
-import React from 'react'
 import { Restaurant } from './type'
 import { Link } from 'react-router-dom'
 import { ClockIcon, HeartIcon } from '@heroicons/react/24/outline'

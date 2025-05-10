@@ -1,5 +1,4 @@
 import { BellIcon, Cog6ToothIcon } from '@heroicons/react/24/outline'
-import React from 'react'
 import Address from '../Address/Address'
 import Cart from '../Cart/Cart'
 
