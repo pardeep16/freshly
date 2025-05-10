@@ -95,7 +95,7 @@ npm run dev
 - [X] Shopping cart component (persist in localStorage)
 - [X] Checkout page and address form
 - [X] Order summary and payment simulation
-- [] Order Tracking page
+- [X] Order Tracking page
 - [ ] User authentication (JWT + OAuth2)
 - [ ] Profile page (past orders, addresses)
 - [ ] Admin dashboard UI
