@@ -2,6 +2,9 @@
 
 A full-stack food delivery platform built using **React** on the frontend and **Spring Boot** on the backend. This application allows users to browse restaurants, view food items, place orders, and track their deliveries in real time.
 
+
+![food_delivery2](https://github.com/user-attachments/assets/a6b119b8-b53b-431b-8e69-7be931c72687)
+
 ---
 
 ## 🧰 Tech Stack
